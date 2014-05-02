@@ -1,0 +1,37 @@
+{
+  "name"        : "diso.demo",
+  "version"     : "0.0.1",
+  "description" : "ok",
+  "main"        : "index.js",
+  "author"      : "",
+  "license"     : "MIT",
+  "private"     : true,
+  "scripts" : {
+    "test" : "echo \"Error: no test specified\" && exit 1"
+  },
+  
+  "dependencies" : {
+    "browserify"  : "~3.32.0",
+    "pm2"         : "~0.7.8",
+    "supervisor"  : "~0.5.7",
+    "pixi.js"     : "~1.5.1",
+    "jquery"      : "~2.1.0",
+    "connect"     : "~2.14.4",
+    "diso.view"   : "~0.0.8",
+    "diso.router" : "~4.0.1",
+    "diso.client" : "~0.0.3",
+    "diso.server" : "~0.0.2"
+  },
+  
+  "devDependencies" : {
+    "grunt"                : "~0.4.4",
+    "grunt-contrib-watch"  : "~0.6.1",
+    "grunt-supervisor"     : "~0.2.1",
+    "grunt-browserify"     : "~2.0.8",
+    "grunt-contrib-uglify" : "~0.4.0",
+    "grunt-contrib-jshint" : "~0.10.0",
+    "grunt-contrib-coffee" : "~0.10.1"
+  }
+}
+
+
