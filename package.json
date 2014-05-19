@@ -16,11 +16,10 @@
     "supervisor"  : "~0.5.7",
     "pixi.js"     : "~1.5.1",
     "jquery"      : "~2.1.0",
-    "connect"     : "~2.14.4",
+    "connect"     : "~2.16.2",
     "diso.view"   : "~0.0.8",
     "diso.router" : "~4.0.1",
-    "diso.client" : "~0.0.3",
-    "diso.server" : "~0.0.2"
+    "diso.core"   : "~0.0.1"
   },
   
   "devDependencies" : {

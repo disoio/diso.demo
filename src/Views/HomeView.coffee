@@ -1,6 +1,6 @@
-View = require('diso.view')
-Mediator = require('diso.client').Mediator
-$ = require('jquery')
+View     = require('diso.view')
+Mediator = require('diso.core/Client').Mediator
+$        = require('jquery')
 
 class HomeView extends View
   meta : ()->

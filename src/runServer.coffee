@@ -1,7 +1,7 @@
 Path = require('path')
 
 Connect = require('connect')
-Server  = require('diso.server')
+Server  = require('diso.core/Server')
 
 Actions  = require('./ServerActions')
 Messages = require('./ServerMessages')

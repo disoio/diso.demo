@@ -5,7 +5,7 @@
 
   Connect = require('connect');
 
-  Server = require('diso.server');
+  Server = require('diso.core/Server');
 
   Actions = require('./ServerActions');
 

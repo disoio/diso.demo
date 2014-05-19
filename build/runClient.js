@@ -1,7 +1,7 @@
 (function() {
   var Client, ClientMessages, Views, routes;
 
-  Client = require('diso.client');
+  Client = require('diso.core/Client');
 
   Views = require('./Views');
 

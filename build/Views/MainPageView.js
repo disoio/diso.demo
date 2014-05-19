@@ -16,13 +16,13 @@
 
     MainPageView.prototype.scripts = ['/static/runClient.js'];
 
-    MainPageView.prototype.site_name = "YOUPLAYSPORTS";
+    MainPageView.prototype.site_name = "diso.io";
 
-    MainPageView.prototype.description = 'SPORTS';
+    MainPageView.prototype.description = 'diso';
 
     MainPageView.prototype.viewport = 'initial-scale = 1.0,maximum-scale = 1.0';
 
-    MainPageView.prototype.keywords = ['drawing'];
+    MainPageView.prototype.keywords = ['diso'];
 
     MainPageView.prototype.template = function() {
       return "<div>\n  " + (this.body.html()) + "\n</div>";

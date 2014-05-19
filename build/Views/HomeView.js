@@ -5,7 +5,7 @@
 
   View = require('diso.view');
 
-  Mediator = require('diso.client').Mediator;
+  Mediator = require('diso.core/Client').Mediator;
 
   $ = require('jquery');
 
@@ -18,8 +18,8 @@
 
     HomeView.prototype.meta = function() {
       return {
-        title: "YOUPLAYSPORTS.com",
-        image: "http://youplaysports.com/static/img/logo.jpg"
+        title: "diso.io",
+        image: "http://diso.io/static/img/logo/png"
       };
     };
 

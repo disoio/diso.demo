@@ -1,4 +1,4 @@
-Views    = require('./Views')
+Views = require('./Views')
 
 class ServerActions
   constructor : (options)->
