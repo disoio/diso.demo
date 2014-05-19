@@ -5,8 +5,8 @@ $ = require('jquery')
 class HomeView extends View
   meta : ()->
     {
-      title       : "YOUPLAYSPORTS.com"
-      image       : "http://youplaysports.com/static/img/logo.jpg"
+      title       : "diso.io"
+      image       : "http://diso.io/static/img/logo/png"
     }
     
   run : ()->

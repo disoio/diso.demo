@@ -5,10 +5,10 @@ class MainPageView extends View.Page
   
   scripts : ['/static/runClient.js']
 
-  site_name   : "YOUPLAYSPORTS"
-  description : 'SPORTS'
+  site_name   : "diso.io"
+  description : 'diso'
   viewport    : 'initial-scale = 1.0,maximum-scale = 1.0'
-  keywords    : ['drawing']
+  keywords    : ['diso']
   
 
   template : ()->

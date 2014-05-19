@@ -16645,23 +16645,26 @@ return jQuery;
 
     __extends(CollectionView, _super);
 
-    function CollectionView(data) {
-      var ItemView, model, view, _i, _len, _ref;
-      this.data = data;
-      CollectionView.__super__.constructor.call(this, this.data);
+    CollectionView.prototype.collection_name = null;
+
+    function CollectionView() {
+      var ItemView, collection_name, model, view, _i, _len, _ref;
+      CollectionView.__super__.constructor.apply(this, arguments);
       if (!this.item) {
         throw "CollectionView must define item View";
       }
-      if (!('collection' in this.data)) {
+      collection_name = this.collection_name || 'collection';
+      if (!(collection_name in this.data)) {
         throw "CollectionView must pass collection param to constructor";
       }
-      this.collection = this.data.collection;
+      this.collection = this.data[collection_name];
       ItemView = this.item;
       _ref = this.collection;
       for (_i = 0, _len = _ref.length; _i < _len; _i++) {
         model = _ref[_i];
         view = new ItemView({
-          model: model
+          model: model,
+          collection_view: this
         });
         this.addSubview(view);
       }
